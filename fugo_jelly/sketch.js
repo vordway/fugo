@@ -79,7 +79,7 @@ function setup() {
   background(img);
   frameRate(25);
 
-  jellyVid = createVideo('large_jelly_new');
+  jellyVid = createVideo('large_jelly_new.mov');
   jellyVid.position(0, 150);
   jellyVid.loop();
   jellyVid.hide();
